@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shebar-Fund raiser</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/hover-min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/animate.min.css"rel="stylesheet">
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 50,
+                time: 10000
+            });
+        });
+    </script>
+	<style>
+	body{
+		font-family: 'Lato', sans-serif;
+	}
+	.top-bar{
+		background:#999999;
+		padding:5px 0;
+		text-align:right;
+	}
+	
+	.slider .container {
+    margin-top: 20px;
+}
+
+ /* Carousel Styles */
+.slider .carousel-indicators .active {
+    background-color: #33cc66;
+}
+<!--
+.slider .carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.slider .carousel-control {
+    width: 0;
+}
+
+.slider .carousel-control.left,
+.slider .carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.slider .carousel-control.left span {
+	padding: 15px;
+}
+
+.slider .carousel-control.right span {
+	padding: 15px;
+}
+
+.slider .carousel-control .glyphicon-chevron-left, 
+.slider .carousel-control .glyphicon-chevron-right, 
+.slider .carousel-control .icon-prev, 
+.slider .carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.slider .carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.slider .carousel-control .glyphicon-chevron-right,
+.slider .carousel-control .icon-next {
+	right: 0;
+}
+
+.slider .carousel-control.left span,
+.slider .carousel-control.right span {
+	background-color: #000;
+}
+
+.slider .carousel-control.left span:hover,
+.slider .carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.slider .header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.slider .header-text h2 {
+    font-size: 40px;
+}
+
+.slider .header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.slider .header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.slider .btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+} -->
+
+/*counter*/
+
+
+/*footer*/
+
+.footer1 {
+    background: #666666;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.title-widget {
+	color: #ff9966;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.title-widget::before {
+    background-color: #33cc66;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+	color:#fff;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+	position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+	width:95%;
+	
+}
+
+.widget_nav_menu ul li a:link,.widget_nav_menu ul li a:visited{
+   color:#fff;
+   text-decoration:none;
+	
+}
+
+.widget_nav_menu ul li a:hover{
+   color:#ff9966;
+	
+}
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+	font-family: 'cambria', sans-serif;
+}
+
+.footerp p {font-family: 'cambria', sans-serif; }
+
+
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #3B5998;
+			}
+			.social-tw:hover {
+				color: #4099FF;
+			}
+			.social-gp:hover {
+				color: #d34836;
+			}
+			.social-em:hover {
+				color: #f39c12;
+			}
+			.nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+.footer-bottom {
+    background-color: #fff;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #999;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+/* hover effect*/
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #ff9966;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/*Campaign Page*/
+
+div.campaign-list h2{
+	color:#33cc66;
+}
+
+div.campaign-box{
+	padding-top:35px;
+	border-bottom:1px solid #33cc66;
+	padding-bottom:60px;
+}
+
+div.campaign-box h3{
+	padding:0px 5px 0;
+	text-align:left;
+	font-size:1.5em;
+	color:#33cc66;
+}
+
+span.col-amount{
+	color:#ff9966;
+}
+
+span.no-donors{
+	color:#999;
+	font-style:italic;
+}
+
+div.campaign-box p{
+	font-size:.95em;
+}
+
+div.campaign-box a.btn-default{
+	font-size:.8em;
+	height:30px;
+	background-color:fff;
+}
+
+div.campaign-box a.btn-default:hover{
+	background-color:#33cc66;
+	color:white;
+	border:#fff;
+}
+
+div.campaign-box a.btn-success{
+	font-size:.8em;
+	height:30px;
+	background-color:#33cc66;
+}
+
+div.campaign-box a.btn-success:hover{
+	background-color:#fff;
+	color:#33cc66;
+	border:1 px solid #33cc66;
+}
+
+/*breadcrumb*/
+
+.breadcrumb{
+	margin-top:40px;
+}
+
+.breadcrumb-arrow {
+    height: 36px;
+    padding-top: 0px;
+    line-height: 36px;
+    list-style: none;
+    background-color: #fff;
+	border:1px solid #33cc66;
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: #33cc66;
+
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #33cc66;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #ff9966;
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #ff9966;
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color:#ff9966;
+}
+.breadcrumb-arrow li a:active {
+    background-color: #ff9966;
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #ff9966;
+}
+.breadcrumb-arrow li span {
+    color: #434a54
+}
+
+
+/* campaign-details page*/
+
+.campaign-slider {
+
+}
+.campaign-slider .carousel-inner{
+	width:727px;
+	height:400px;
+	padding-top:20px;
+}
+.campaign-slider .carousel-indicators{
+	left:350px;
+	
+}
+
+.campaign-slider .carousel-indicators li{
+	border-radius:0;
+	height:5px;
+	width:20px;
+	
+}
+
+.campaign-slider .carousel-indicators .active{
+	background-color: #ff9966;
+}
+.camp-des h4{
+	word-spacing:.80em;
+	margin-bottom:20px;
+}
+.camp-des .person-name{
+	color: #ff9966;
+}
+
+.camp-des article{
+	text-align:justify;
+	border:1px solid #ccc;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.camp-des .social-share{
+	text-align:center;
+}
+
+.donation-status{
+	padding-top:40px;
+}
+
+.donation-status p.donation-amount{
+	color: #ff9966;
+	font-size:1.2em;
+}
+
+.donation-status p.donar-name{
+	color: #33cc66;
+	font-size:1.1em;
+}
+	</style>
+  </head>
+  <body>
+ <!--    <div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+				</div>
+				<div class="social-links col-offset-9 col-md-3">
+					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+					<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="#"><i class="fa fa-youtube fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom:0;background-color:#fff;color:#33cc66;padding:15px 0;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hvr hvr-wobble-horizontal" href="#featured"><span style="color:#ff9966;font-weight:bold;" class="subhead">Sheba</span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+          <div class="navbar-collapse collapse" >
+				<ul class="sheba-left nav navbar-nav navbar-left" style="font-size:1.15em;margin-left:30px;">
+					<li><a href="#" class="hvr hvr-underline-from-center" style="color:#33cc66;">What We Do</a></li>
+					<li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">About US</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right" style="font-size:1.15em;">
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Start a Campaign</a></li>
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Log In</a></li>
+				  <li><a href="#contact" class="hvr hvr-underline-from-center" style="color:#33cc66;">Sign Up</a></li>
+				</ul>
+			</div>
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+  <!-- Slider Start -->
+	<div class="campaign-slider-progress">
+	<div class="container" style="margin-top:100px;">
+		<div class="row">
+			<div class="col-md-8 campaign-slider ">
+			<div id="carousel-example" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active" style=""></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			  </ol>
+
+		  <div class="carousel-inner">
+			<div class="item active">
+			  <a href="#"><img src="images/campaign_Detailed.jpg" /></a>
+			  <!-- <div class="carousel-caption" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="margin-right:25px;">Fundraise Now</a>	
+				<a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	
+			  </div> -->
+			</div>
+			<div class="item">
+			  <a href="#"><img src="images/campaign_Detailed2.jpg" /></a>
+			  <div class="carousel-caption" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="width:180px;">Donate Now</a>	
+				<!-- <a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	 -->
+			  </div>
+			</div>
+			<div class="item">
+			  <a href="#"><img src="http://finder2000.lk/wp-content/themes/BLANK-Theme/img/3.jpg" /></a>
+			  <div class="carousel-caption" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="width:180px;">Donate Now</a>	
+				<!-- <a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	 -->
+			  </div>
+			</div>
+		  </div>
+		</div>
+			</div>
+	
+			<div class="col-md-4" style="margin-top:20px;">
+				<p style="font-size:1.4em;"><big style="font-size:2.4em;">$ 2345</big> of $10000K goal</p>
+				<div class="progress" style="border-radius:50px;height:15px;margin-bottom:0;">
+					
+					<span class="sr-only" style="color:black;"></span>
+					 <div class="progress-bar progress-bar-warning" role="progressbar"  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+					 </div>
+				</div>
+				<span style="font-size:0.9em;letter-spacing:3px;">Raised by 131 people in 51 months</span>
+				
+				<p class="social-donate text-center">
+					
+					<a href="#" class="btn btn-primary" style="width:330px;background-color:#ff9966;border:1px solid #ff9966;margin-top:30px;">Donate Now</a>
+					
+					<a href="#" class="btn btn-primary" style="width:330px;background-color:#33cc66;border:1px solid #33cc66;margin-top:30px;">Share on Facebook</a>	
+					</p>
+			</div>
+		
+		</div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	<!-- <div class="container">
+		<div class="row">
+			<ol class="breadcrumb breadcrumb-arrow col-md-12">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">Campaigns</a></li>
+				<li class="active"><span>Campaign-Details</span></li>
+			</ol>
+		</div>
+	</div> -->
+	
+	<div class="camp-details" style="margin-top:20px;">
+		<div class="container camp-heading">
+		<div class="row">
+			<div class="col-md-8">
+				<h2 class="text-left">Campaign Name</h2>
+			</div>
+			
+			<div class="col-md-4">
+				<h2 class="text-left">Recent Donations</h2>
+			</div>
+			
+		</div>
+		<div class="row camp-des">
+			<div class="col-md-8">
+				<h4><span class="donar-name">Nancy Gomes</span> <em>for</em> <span class="person-name">John Doe</span></h4>
+				<article>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in odio scelerisque, pulvinar lacus eget, viverra est. Ut convallis consectetur turpis, euismod rhoncus tellus ultrices at. Sed tellus ante, egestas a lacus ac, blandit efficitur nisl. Phasellus sed mollis urna. Morbi volutpat euismod semper. In aliquam euismod neque, in rutrum neque consectetur at. Donec cursus a ipsum sed scelerisque. Ut in consequat elit. Mauris aliquet, lacus eu pulvinar feugiat, erat urna cursus lacus, ut auctor ipsum nibh at sem. Cras justo ipsum, convallis sodales libero eget, convallis iaculis mauris. Proin sit amet bibendum leo. Proin nec tristique sapien. Donec quis venenatis nulla. Mauris eleifend tristique orci. Mauris euismod ex erat.
+					</p>
+					
+					<p>
+
+					Nunc neque nibh, cursus sed nisl eget, porta posuere est. Sed eget efficitur orci, vel commodo turpis. Praesent venenatis tempus dolor, et cursus velit rhoncus non. In efficitur varius congue. Integer erat lacus, sollicitudin non leo ac, vulputate luctus diam. Vivamus viverra egestas sapien, non fringilla est tempor a. Praesent ultrices congue mi eu rhoncus. Integer sagittis arcu et venenatis cursus. Donec quis tempor erat, rhoncus efficitur nunc. Sed ornare nunc ut eros consectetur, a porttitor augue pulvinar. Nulla sit amet risus vitae nibh efficitur lobortis. In tempor ligula ipsum, eget faucibus arcu dictum ut. Sed rutrum bibendum sem, vel eleifend risus. Aliquam a bibendum libero, non faucibus magna. Integer non orci a ipsum porttitor elementum. Mauris condimentum felis vel lorem dapibus, sed posuere arcu lobortis.
+
+					Etiam ultricies eleifend auctor. Sed et nunc sit amet tortor condimentum venenatis. Nam sollicitudin laoreet felis, a rhoncus dui gravida non. Cras at purus a elit consequat pellentesque. Suspendisse lacinia dolor nec facilisis bibendum. Quisque ac ultrices elit. Maecenas mollis eget neque vitae pharetra. Phasellus quis sapien ac dolor feugiat blandit. Aenean eu vestibulum tellus. Mauris auctor eget metus eget blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam varius nulla sagittis congue vestibulum. Mauris venenatis elit a elementum scelerisque. Phasellus malesuada, lectus vitae bibendum tincidunt, lectus turpis bibendum est, et pharetra diam dui eget odio.
+					
+					</p>
+					
+					<p>
+					Suspendisse ac consectetur nunc. Aliquam id ornare erat, vitae consectetur nisl. Curabitur non molestie augue. Aliquam velit odio, accumsan non volutpat eu, rhoncus sit amet felis. Aliquam lorem sem, auctor nec porttitor id, posuere in lacus. Praesent lorem eros, tincidunt rutrum dictum eu, euismod id est. Aenean convallis velit non cursus rhoncus. Praesent vel dui tortor. Vestibulum sodales sollicitudin purus, at iaculis tortor ornare non. Vivamus luctus, enim ut interdum condimentum, quam lectus elementum odio, non varius magna odio non elit. Nullam quis augue vel quam sodales molestie. Integer malesuada dapibus massa, quis pulvinar felis tincidunt sit amet.
+
+					In a feugiat libero, non feugiat ipsum. Donec justo lorem, eleifend nec dictum quis, maximus id nibh. In molestie metus libero, eget dictum elit volutpat non. Cras aliquam lectus sapien, et volutpat diam scelerisque id. Aliquam accumsan placerat mollis. Integer elit felis, accumsan ac maximus quis, aliquam a metus. Sed congue eros pulvinar finibus bibendum. Cras cursus libero vitae sapien facilisis, non porta ipsum placerat. Integer massa arcu, egestas et ligula in, consequat efficitur quam. Aliquam convallis nisl non congue suscipit. Vestibulum ligula arcu, feugiat non posuere id, aliquam ac ante. Etiam ultricies rhoncus ligula. Donec ac nulla neque. Proin aliquet tempus eros nec fermentum. Praesent convallis, elit vel aliquam fermentum, quam est finibus tellus, quis tincidunt tortor nisl ut eros.
+					
+					</p>
+					
+					<p class="social-share">
+					<h3>Share this Story</h3>
+					<a href="#" class="btn btn-primary" style="margin-right:25px;"><i class="fa fa-facebook fa-lg"></i>&nbsp;&nbsp;&nbsp;Facebook</a>	
+				<a href="#" class="btn btn-primary" style="background-color:#3399ff;" style="width:120px;"><i class="fa fa-twitter fa-lg" ></i>&nbsp;&nbsp;&nbsp;Tweeter</a>	
+					</p>
+				</article>				
+			</div>
+			
+			<div class="col-md-4">
+				<div class="donation-status"  style="border-bottom:1px solid #ccc;">
+					<p class="donation-amount">$20 ago</p>
+					<p class="donar-name">Donar's Name</p>
+					<p class="donate-since">2 Hour's</p>
+				</div>
+				<div class="donation-status"  style="border-bottom:1px solid #ccc;">
+					<p class="donation-amount">$20 ago</p>
+					<p class="donar-name">Donar's Name</p>
+					<p class="donate-since">2 Hour's</p>
+				</div>
+				<div class="donation-status"  style="border-bottom:1px solid #ccc;">
+					<p class="donation-amount">$20 ago</p>
+					<p class="donar-name">Donar's Name</p>
+					<p class="donate-since">2 Hour's</p>
+				</div>
+				<div class="donation-status"  style="border-bottom:1px solid #ccc;">
+					<p class="donation-amount">$20 ago</p>
+					<p class="donar-name">Donar's Name</p>
+					<p class="donate-since">2 Hour's</p>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		
+		
+		
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+		
+		
+	<footer class="footer1">
+		<div class="container">
+
+			<div class="row"><!-- row -->
+            
+				<div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Sheba</h1>
+                                
+                               
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div>
+			
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Fund Raising</h1>
+                                
+                                <ul>
+                                	<li><a  href="#"><i class="fa fa-angle-double-right"></i> How it Works</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Start a Fundraiser</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Free Fund raising</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Ask a Question</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Useful links</h1>
+                                
+                                <ul>
+ 									<li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Charity Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Children Fundraising</a></li>
+                                    
+                                    
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Site links</h1>
+                                
+                                <ul>
+
+
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Log In</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Categories</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Guest Book</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Careers</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Counselling</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Key Persons</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  About Us</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  Contact Us</a></li>
+
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                <!--<div class="col-lg-3 col-md-3"> widgets column center -->
+                
+                   
+                    
+                        <!-- <ul class="list-unstyled clear-margins"> --><!-- widgets -->
+                        
+                        	<!-- <li class="widget-container widget_recent_news"> --><!-- widgets list -->
+                    
+                               <!--  <h1 class="title-widget">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
+                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                <p><b>Helpline Numbers </b>
+ -->
+  <!--   <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
+    
+    <p><b>Corp Office / Postal Address</b></p>
+    <p><b>Phone Numbers : </b>7042827160, </p>
+    <p> 011-27568832, 9868387223</p> 
+                                </div>-->
+                                
+                               <!--  <div class="social-icons">
+                                
+                                	<ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div> -->
+                    		<!-- </li>
+                          </ul>
+                       </div>
+                </div> -->
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					Copyright 2017 & All right reserved by Owners 
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!--  <script src="js/jquery-1.11.3.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shebar-Fund raiser</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/hover-min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/animate.min.css"rel="stylesheet">
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 50,
+                time: 10000
+            });
+        });
+    </script>
+	<style>
+	body{
+		font-family: 'Lato', sans-serif;
+	}
+	.top-bar{
+		background:#999999;
+		padding:5px 0;
+		text-align:right;
+	}
+	
+	.slider .container {
+    margin-top: 20px;
+}
+
+/* Carousel Styles */
+.slider .carousel-indicators .active {
+    background-color: #33cc66;
+}
+<!-- 
+.slider .carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.slider .carousel-control {
+    width: 0;
+}
+
+.slider .carousel-control.left,
+.slider .carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.slider .carousel-control.left span {
+	padding: 15px;
+}
+
+.slider .carousel-control.right span {
+	padding: 15px;
+}
+
+.slider .carousel-control .glyphicon-chevron-left, 
+.slider .carousel-control .glyphicon-chevron-right, 
+.slider .carousel-control .icon-prev, 
+.slider .carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.slider .carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.slider .carousel-control .glyphicon-chevron-right,
+.slider .carousel-control .icon-next {
+	right: 0;
+}
+
+.slider .carousel-control.left span,
+.slider .carousel-control.right span {
+	background-color: #000;
+}
+
+.slider .carousel-control.left span:hover,
+.slider .carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.slider .header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.slider .header-text h2 {
+    font-size: 40px;
+}
+
+.slider .header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.slider .header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.slider .btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+} -->
+
+/*counter*/
+
+
+/*footer*/
+
+.footer1 {
+    background: #666666;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.title-widget {
+	color: #ff9966;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.title-widget::before {
+    background-color: #33cc66;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+	color:#fff;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+	position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+	width:95%;
+	
+}
+
+.widget_nav_menu ul li a:link,.widget_nav_menu ul li a:visited{
+   color:#fff;
+   text-decoration:none;
+	
+}
+
+.widget_nav_menu ul li a:hover{
+   color:#ff9966;
+	
+}
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+	font-family: 'cambria', sans-serif;
+}
+
+.footerp p {font-family: 'cambria', sans-serif; }
+
+
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #3B5998;
+			}
+			.social-tw:hover {
+				color: #4099FF;
+			}
+			.social-gp:hover {
+				color: #d34836;
+			}
+			.social-em:hover {
+				color: #f39c12;
+			}
+			.nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+.footer-bottom {
+    background-color: #fff;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #999;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+/* hover effect*/
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #ff9966;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/*shrink navbar*/
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.915, 1.810, 2.355, 3.500);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+	</style>
+  </head>
+  <body>
+   <!--  <div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+				</div>
+				<div class="social-links col-offset-9 col-md-3">
+					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+					<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="#"><i class="fa fa-youtube fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom:0;background-color:#fff;color:#33cc66;padding:15px 0;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hvr hvr-wobble-horizontal" href="#featured"><span style="color:#ff9966;font-weight:bold;" class="subhead">Sheba</span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+          <div class="navbar-collapse collapse" >
+				<ul class="sheba-left nav navbar-nav navbar-left" style="font-size:1.15em;margin-left:30px;">
+					<li><a href="#" class="hvr hvr-underline-from-center" style="color:#33cc66;">What We Do</a></li>
+					<li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">About US</a></li>
+					<li><a href="FundFAQPage.html" class="hvr hvr-underline-from-center" style="color:#33cc66;">FAQ</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right" style="font-size:1.15em;">
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Start a Campaign</a></li>
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Log In</a></li>
+				  <li><a href="#contact" class="hvr hvr-underline-from-center" style="color:#33cc66;">Sign Up</a></li>
+				</ul>
+			</div>
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+  <!-- Slider Start -->
+	<div class="slider">
+		  <div id="carousel-example" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active" style=""></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			  </ol>
+
+		  <div class="carousel-inner">
+			<div class="item active">
+			  <a href="#"><img src="images/slider-1.jpg" /></a>
+			  <div class="carousel-caption animated bounceInLeft" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="margin-right:25px;">Fundraise Now</a>	
+				<a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	
+			  </div>
+			</div>
+			<div class="item">
+			  <a href="#"><img src="http://finder2000.lk/wp-content/themes/BLANK-Theme/img/2.jpg" /></a>
+			  <div class="carousel-caption animated lightSpeedIn" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="campaignPage.html" class="btn btn-success" style="width:180px;">Donate Now</a>	
+				<!-- <a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	 -->
+			  </div>
+			</div>
+			<div class="item">
+			  <a href="#"><img src="http://finder2000.lk/wp-content/themes/BLANK-Theme/img/3.jpg" /></a>
+			  <div class="carousel-caption animated bounceInUp" style="width:310px;height:260px;background-color:white;bottom:80px;left:850px;">
+				<h3 style="color:#33cc66;text-shadow:none;">Start a Campaign</h3>
+				<p style="color:#000;text-shadow:none;text-align:justify;padding:20px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="width:180px;">Donate Now</a>	
+				<!-- <a href="#" class="btn btn-default" style="width:120px;">Learn More</a>	 -->
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+	<div class="current-campaign" style="margin-top:60px;">
+		<div class="container">
+		<div class="row" style="">
+			<div class="col-md-12">
+				<h2 class="text-center" style="color:#33cc66;">Current Campaign</h2>
+			</div>
+			
+		</div>
+		<div class="row" style="padding-top:35px;border-bottom:1px solid #33cc66;padding-bottom:60px;">
+			<div class="col-md-4 text-center box hvr hvr-grow">
+				<img src="images/box-images_01.png" alt="current-campaign_1" />
+				<p style="padding:10px 15px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar </p>
+				<a href="#" class="btn btn-success" style="margin-right:25px;">Read More</a>
+				<a href="#" class="btn btn-default" style="width:100px;">Donate</a>
+			</div>
+			<div class="col-md-4 text-center box hvr hvr-grow">
+				<img src="images/box-images_02.png" alt="current-campaign_1" />
+				<p style="padding:10px 15px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="margin-right:25px;">Read More</a>
+				<a href="#" class="btn btn-default" style="width:100px;">Donate</a>
+			</div>
+			<div class="col-md-4 text-center box hvr hvr-grow">
+				<img src="images/box-images_03.png" alt="current-campaign_1" />
+				<p style="padding:10px 15px;">Lorem ipsum dolor sit amet, in odio scelerisque,pulvinar lacus eget, viverra est</p>
+				<a href="#" class="btn btn-success" style="margin-right:25px;">Read More</a>
+				<a href="#" class="btn btn-default" style="width:100px;">Donate</a>
+			</div>
+		</div>
+		
+		</div>
+	</div>
+	
+	<div class="categories" style="margin-top:30px;">
+		<div class="container">
+		<div class="row" style="margin:20px 0 50px 0;">
+				<h2 class="col-md-12 text-center">Which catagories interest you?</h2>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in odio scelerisque</p>
+		</div>
+			<div class="row" style="padding-top:35px;border-bottom:1px solid #33cc66;padding-bottom:60px;">
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_01.png" alt="" /></a>
+				</div>
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_02.png" alt="" /></a>
+				</div>
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_03.png" alt="" /></a>
+				</div>
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_04.png" alt="" /></a>
+				</div>
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_05.png" alt="" /></a>
+				</div>
+				<div class="col-md-2 col-sm-6 text-center">
+					<a href="#"><img src="images/category_06.png" alt="" /></a>
+				</div>
+				
+			</div>
+			
+			</div>
+		</div>
+	
+	<div class="success-stories" style="margin-top:60px;">
+		<div class="container">
+		<div class="row" style="">
+			<div class="col-md-12">
+				<h2 class="text-center" style="color:#33cc66;">Success strories from our Fund Raiser </h2>
+			</div>
+			
+		</div>
+		<div class="row" style="padding-top:35px;border-bottom:1px solid #33cc66;padding-bottom:60px;">
+			<div class="col-md-4 success-box ">
+				<img src="images/success-1.png" alt="success_1" />
+				<p style="padding:5px 5px 0;">Morbi volutpat euismod semper. In aliquam euismod neque, in rutrum neque consectetur at.</p>
+				<a href="#" class="btn btn-default hvr hvr-round-corners" style="border:1px solid #ff9966; color:#ff9966;">Read Now</a>	
+			</div>
+			<div class="col-md-4 success-box">
+				<img src="images/success-1.png" alt="success_1" />
+				<p style="padding:5px 5px 0;">Morbi volutpat euismod semper. In aliquam euismod neque, in rutrum neque consectetur at.</p>
+				<a href="#" class="btn btn-default hvr hvr-round-corners" style="border:1px solid #ff9966; color:#ff9966;">Read Now</a>	
+			</div>
+			<div class="col-md-4 success-box">
+				<img src="images/success-1.png" alt="success_1" />
+				<p style="padding:5px 5px 0;">Morbi volutpat euismod semper. In aliquam euismod neque, in rutrum neque consectetur at.</p>
+				<a href="#" class="btn btn-default hvr hvr-round-corners" style="border:1px solid #ff9966; color:#ff9966;">Read Now</a>	
+			</div>
+		</div>
+		
+		</div>
+	</div>
+	
+	<div class="how-it-works">
+		<div class="container">
+		<div class="row" style="">
+			<div class="col-md-12">
+				<h2 class="text-center" style="color:#33cc66;">How It Works </h2>
+			</div>
+			
+		</div>
+		<div class="row" style="padding-top:35px;border-bottom:1px solid #33cc66;padding-bottom:60px;">
+			<div class="col-md-6">
+                   <iframe style="border:12px solid #ccc;" width="500" height="338" src="http://www.youtube.com/embed/KgMt0dtr4Vc" frameborder="5" allowfullscreen></iframe>
+            </div>
+		
+			<div class="col-md-6 message text-center">
+				<p class="" style="padding:0 5px;color:#ff9966;font-size:2.45em;margin-top:40px;">Asking for money is not very hard. Our fund will makes it easier.
+				</p>
+				<a href="#" class="btn btn-default" style="border:1px solid #ff9966; color:#fff;width:150px;background-color:#ff9966;text-align:center;">Read Now</a>	
+				
+			</div>
+			
+		</div>
+		
+		</div>
+	
+	</div>
+	
+	<div class="web-counter" style="margin-top:30px;">
+		<div class="container">
+			<div class="row" style="margin:20px 0 50px 0;">
+					<h2 class="col-md-12 text-center" style="color:#33cc66;">Our Fund Campaigns are alwasy progressing & Counting</h2>
+					
+			</div>
+		
+			<div class="row" style="padding-top:35px;color:#33cc66;padding-bottom:60px;">
+				<div class="col-md-3 col-sm-6 text-center">
+					<span style="font-size:3.6em" class="counter circle">150</span>
+					<p class="counter-label" style="color:#999;">Total Campaign</p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center">
+					<span style="font-size:3.6em" class="counter circle">42</span>
+					<p class="counter-label" style="color:#999;">Running Campaign</p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center">
+					<span style="font-size:3.6em" class="counter circle">75</span>
+					<p class="counter-label" style="color:#999;">Finished Campaign</p>
+				</div>
+				<div class="col-md-3 col-sm-6 text-center">
+					<span style="font-size:3.6em" class="counter circle">1250</span>
+					<p class="counter-label" style="color:#999;">Total Donators</p>
+				</div>
+				
+				
+			</div>
+				
+				
+		</div>
+			
+	</div>
+		
+		
+	<footer class="footer1">
+		<div class="container">
+
+			<div class="row"><!-- row -->
+            
+				<div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Sheba</h1>
+                                
+                               
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div>
+			
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Fund Raising</h1>
+                                
+                                <ul>
+                                	<li><a  href="#"><i class="fa fa-angle-double-right"></i> How it Works</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Start a Fundraiser</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Free Fund raising</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Ask a Question</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Useful links</h1>
+                                
+                                <ul>
+ 									<li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Charity Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Children Fundraising</a></li>
+                                    
+                                    
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Site links</h1>
+                                
+                                <ul>
+
+
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Log In</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Categories</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Guest Book</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Careers</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Counselling</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Key Persons</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  About Us</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  Contact Us</a></li>
+
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                <!--<div class="col-lg-3 col-md-3"> widgets column center -->
+                
+                   
+                    
+                        <!-- <ul class="list-unstyled clear-margins"> --><!-- widgets -->
+                        
+                        	<!-- <li class="widget-container widget_recent_news"> --><!-- widgets list -->
+                    
+                               <!--  <h1 class="title-widget">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
+                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                <p><b>Helpline Numbers </b>
+ -->
+  <!--   <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
+    
+    <p><b>Corp Office / Postal Address</b></p>
+    <p><b>Phone Numbers : </b>7042827160, </p>
+    <p> 011-27568832, 9868387223</p> 
+                                </div>-->
+                                
+                               <!--  <div class="social-icons">
+                                
+                                	<ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div> -->
+                    		<!-- </li>
+                          </ul>
+                       </div>
+                </div> -->
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					Copyright 2017 & All right reserved by Owners 
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	<script>
+	$(window).scroll(function() {
+	if ($(document).scrollTop() > 50) {
+		$('nav').addClass('shrink');
+	} else {
+		$('nav').removeClass('shrink');
+	}
+	});
+	
+	
+	</script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!--  <script src="js/jquery-1.11.3.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

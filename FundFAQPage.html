@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shebar-Fund raiser</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/hover-min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/animate.min.css"rel="stylesheet">
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 50,
+                time: 10000
+            });
+        });
+    </script>
+	<style>
+	body{
+		font-family: 'Lato', sans-serif;
+	}
+	.top-bar{
+		background:#999999;
+		padding:5px 0;
+		text-align:right;
+	}
+	
+	.slider .container {
+    margin-top: 20px;
+}
+
+ /* Carousel Styles */
+.slider .carousel-indicators .active {
+    background-color: #33cc66;
+}
+<!--
+.slider .carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.slider .carousel-control {
+    width: 0;
+}
+
+.slider .carousel-control.left,
+.slider .carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.slider .carousel-control.left span {
+	padding: 15px;
+}
+
+.slider .carousel-control.right span {
+	padding: 15px;
+}
+
+.slider .carousel-control .glyphicon-chevron-left, 
+.slider .carousel-control .glyphicon-chevron-right, 
+.slider .carousel-control .icon-prev, 
+.slider .carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.slider .carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.slider .carousel-control .glyphicon-chevron-right,
+.slider .carousel-control .icon-next {
+	right: 0;
+}
+
+.slider .carousel-control.left span,
+.slider .carousel-control.right span {
+	background-color: #000;
+}
+
+.slider .carousel-control.left span:hover,
+.slider .carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.slider .header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.slider .header-text h2 {
+    font-size: 40px;
+}
+
+.slider .header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.slider .header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.slider .btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+} -->
+
+/*counter*/
+
+
+/*footer*/
+
+.footer1 {
+    background: #666666;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.title-widget {
+	color: #ff9966;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.title-widget::before {
+    background-color: #33cc66;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+	color:#fff;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+	position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+	width:95%;
+	
+}
+
+.widget_nav_menu ul li a:link,.widget_nav_menu ul li a:visited{
+   color:#fff;
+   text-decoration:none;
+	
+}
+
+.widget_nav_menu ul li a:hover{
+   color:#ff9966;
+	
+}
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+	font-family: 'cambria', sans-serif;
+}
+
+.footerp p {font-family: 'cambria', sans-serif; }
+
+
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #3B5998;
+			}
+			.social-tw:hover {
+				color: #4099FF;
+			}
+			.social-gp:hover {
+				color: #d34836;
+			}
+			.social-em:hover {
+				color: #f39c12;
+			}
+			.nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+.footer-bottom {
+    background-color: #fff;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #999;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+/* hover effect*/
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #ff9966;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/*Campaign Page*/
+
+div.campaign-list h2{
+	color:#33cc66;
+}
+
+div.campaign-box{
+	padding-top:35px;
+	border-bottom:1px solid #33cc66;
+	padding-bottom:60px;
+}
+
+div.campaign-box h3{
+	padding:0px 5px 0;
+	text-align:left;
+	font-size:1.5em;
+	color:#33cc66;
+}
+
+span.col-amount{
+	color:#ff9966;
+}
+
+span.no-donors{
+	color:#999;
+	font-style:italic;
+}
+
+div.campaign-box p{
+	font-size:.95em;
+}
+
+div.campaign-box a.btn-default{
+	font-size:.8em;
+	height:30px;
+	background-color:fff;
+}
+
+div.campaign-box a.btn-default:hover{
+	background-color:#33cc66;
+	color:white;
+	border:#fff;
+}
+
+div.campaign-box a.btn-success{
+	font-size:.8em;
+	height:30px;
+	background-color:#33cc66;
+}
+
+div.campaign-box a.btn-success:hover{
+	background-color:#fff;
+	color:#33cc66;
+	border:1 px solid #33cc66;
+}
+
+/*breadcrumb*/
+
+.breadcrumb{
+	margin-top:40px;
+}
+
+.breadcrumb-arrow {
+    height: 36px;
+    padding-top: 0px;
+    line-height: 36px;
+    list-style: none;
+    background-color: #fff;
+	border:1px solid #33cc66;
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: #33cc66;
+
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #33cc66;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #ff9966;
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #ff9966;
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color:#ff9966;
+}
+.breadcrumb-arrow li a:active {
+    background-color: #ff9966;
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #ff9966;
+}
+.breadcrumb-arrow li span {
+    color: #434a54
+}
+
+
+/* campaign-details page*/
+
+.campaign-slider {
+
+}
+.campaign-slider .carousel-inner{
+	width:727px;
+	height:400px;
+	padding-top:20px;
+}
+.campaign-slider .carousel-indicators{
+	left:350px;
+	
+}
+
+.campaign-slider .carousel-indicators li{
+	border-radius:0;
+	height:5px;
+	width:20px;
+	
+}
+
+.campaign-slider .carousel-indicators .active{
+	background-color: #ff9966;
+}
+.camp-des h4{
+	word-spacing:.80em;
+	margin-bottom:20px;
+}
+.camp-des .person-name{
+	color: #ff9966;
+}
+
+.camp-des article{
+	text-align:justify;
+	border:1px solid #ccc;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.camp-des .social-share{
+	text-align:center;
+}
+
+.donation-status{
+	padding-top:40px;
+}
+
+.donation-status p.donation-amount{
+	color: #ff9966;
+	font-size:1.2em;
+}
+
+.donation-status p.donar-name{
+	color: #33cc66;
+	font-size:1.1em;
+}
+
+/* FAQ */
+.campaign-faq-header .header-image{
+background-image:url("images/fagHeader.jpg");
+height:314px;
+}
+
+.faq-buttons .btn-default{
+	border:1ps solid #ff9966!important;
+}
+	</style>
+  </head>
+  <body>
+ <!--    <div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+				</div>
+				<div class="social-links col-offset-9 col-md-3">
+					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+					<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="#"><i class="fa fa-youtube fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom:0;background-color:#fff;color:#33cc66;padding:15px 0;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hvr hvr-wobble-horizontal" href="#featured"><span style="color:#ff9966;font-weight:bold;" class="subhead">Sheba</span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+          <div class="navbar-collapse collapse" >
+				<ul class="sheba-left nav navbar-nav navbar-left" style="font-size:1.15em;margin-left:30px;">
+					<li><a href="#" class="hvr hvr-underline-from-center" style="color:#33cc66;">What We Do</a></li>
+					<li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">About US</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right" style="font-size:1.15em;">
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Start a Campaign</a></li>
+				  <li><a href="#about" class="hvr hvr-underline-from-center" style="color:#33cc66;">Log In</a></li>
+				  <li><a href="#contact" class="hvr hvr-underline-from-center" style="color:#33cc66;">Sign Up</a></li>
+				</ul>
+			</div>
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+  <!-- Slider Start -->
+	<div class="campaign-faq-header">
+	<div class="container" style="margin-top:100px;">
+		<div class="row">
+			<div class="col-md-12 header-image">
+			
+				<div class="container" style="margin-top:90px;">
+					<div class="col-md-6 col-md-offset-3">
+
+						<!-- Search Form -->
+						<form role="form">
+						
+						<!-- Search Field -->
+							<div class="row">
+								<h3 class="text-center">Search here..</h3>
+								<div class="form-group">
+									<div class="input-group">
+										<input class="form-control" type="text" name="search" placeholder="Search" required/>
+										<span class="input-group-btn">
+											<button class="btn btn-success" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"><span style="margin-left:10px;">Search</span></button>
+										</span>
+										</span>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+        <!-- End of Search Form -->
+            
+					</div>
+				</div>
+			</div>
+	
+			
+		
+		</div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	<!-- <div class="container">
+		<div class="row">
+			<ol class="breadcrumb breadcrumb-arrow col-md-12">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">Campaigns</a></li>
+				<li class="active"><span>Campaign-Details</span></li>
+			</ol>
+		</div>
+	</div> -->
+	
+		<div class="faq-buttons" style="margin-top:20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="btn btn-default" style="width:320px;border:1ps solid #ff9966;">Campaign Success Tips</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="btn btn-default" style="width:320px;border:1ps solid #ff9966;">Donor Quesions</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="btn btn-default" style="width:320px;border:1ps solid #ff9966;">Safety &amp; Security</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	
+	<div class="faq-details animated swing" style="margin-top:20px;">
+		<div class="container ">
+		<h3 class="text-center" style="margin-bottom:10px;">Most Important Frequently Ask Questions</h3>
+			<div class="panel-group" id="faqAccordion" style="margin-top:30px;">
+				<div class="panel panel-default ">
+					<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+						 <h4 class="panel-title">
+							<a href="#" class="ing">Q: What is Lorem Ipsum?</a>
+					  </h4>
+
+					</div>
+					<div id="question0" class="panel-collapse collapse" style="height: 0px;">
+						<div class="panel-body">
+							 <h5><span class="label label-primary">Answer</span></h5>
+
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+								</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default ">
+					<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+						 <h4 class="panel-title">
+							<a href="#" class="ing">Q: Why do we use it?</a>
+					  </h4>
+
+					</div>
+					<div id="question1" class="panel-collapse collapse" style="height: 0px;">
+						<div class="panel-body">
+							 <h5><span class="label label-primary">Answer</span></h5>
+
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default ">
+					<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+						 <h4 class="panel-title">
+							<a href="#" class="ing">Q: Where does it come from?</a>
+					  </h4>
+
+					</div>
+					<div id="question2" class="panel-collapse collapse" style="height: 0px;">
+						<div class="panel-body">
+							 <h5><span class="label label-primary">Answer</span></h5>
+
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default ">
+					<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+						 <h4 class="panel-title">
+							<a href="#" class="ing">Q: Where can I get some?</a>
+					  </h4>
+
+					</div>
+					<div id="question3" class="panel-collapse collapse" style="height: 0px;">
+						<div class="panel-body">
+							 <h5><span class="label label-primary">Answer</span></h5>
+
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+    <!--/panel-group-->
+		</div>
+	</div>
+	
+	<div class="help-articles" style="background-color:#e8e8e8;padding:40px 0;">
+		<div class="container">
+			<div class="row">
+				<h3 class="text-center" style="margin-bottom:30px;">Important articles</h3>
+				<div class="col-md-offset-1 col-md-4 animated bounceInLeft">
+					<p style="line-height:2.5em;">
+						Lorem ipsum dolor sit amet
+						Consectetur adipiscing elit
+						In in odio scelerisque, pulvinar lacus eget, viverra est
+						Ut convallis consectetur turpis
+						euismod rhoncus tellus ultrices 
+						Sed tellus ante, egestas a lacus ac, blandit efficitur nisl?
+					</p>
+				</div>
+				<div class="col-md-offset-2 col-md-4 animated bounceInRight">
+					<p style="line-height:2.5em;">
+						Lorem ipsum dolor sit amet
+						Consectetur adipiscing elit
+						In in odio scelerisque, pulvinar lacus eget, viverra est
+						Ut convallis consectetur turpis
+						euismod rhoncus tellus ultrices 
+						Sed tellus ante, egestas a lacus ac, blandit efficitur nisl?
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+		
+		
+	<footer class="footer1">
+		<div class="container">
+
+			<div class="row"><!-- row -->
+            
+				<div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Sheba</h1>
+                                
+                               
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div>
+			
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Fund Raising</h1>
+                                
+                                <ul>
+                                	<li><a  href="#"><i class="fa fa-angle-double-right"></i> How it Works</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Start a Fundraiser</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Free Fund raising</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> Ask a Question</a></li>
+									<li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQ</a></li>
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Useful links</h1>
+                                
+                                <ul>
+ 									<li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Charity Fundraising</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Children Fundraising</a></li>
+                                    
+                                    
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Site links</h1>
+                                
+                                <ul>
+
+
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Log In</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Categories</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Guest Book</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Careers</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Counselling</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i> Key Persons</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  About Us</a></li>
+									<li><a href="#"><i class="fa fa-angle-double-right"></i>  Contact Us</a></li>
+
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                <!--<div class="col-lg-3 col-md-3"> widgets column center -->
+                
+                   
+                    
+                        <!-- <ul class="list-unstyled clear-margins"> --><!-- widgets -->
+                        
+                        	<!-- <li class="widget-container widget_recent_news"> --><!-- widgets list -->
+                    
+                               <!--  <h1 class="title-widget">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">Webenlance Pvt. Ltd.</h2>
+                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                <p><b>Helpline Numbers </b>
+ -->
+  <!--   <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-8130890090, +91-8130190010  </p>
+    
+    <p><b>Corp Office / Postal Address</b></p>
+    <p><b>Phone Numbers : </b>7042827160, </p>
+    <p> 011-27568832, 9868387223</p> 
+                                </div>-->
+                                
+                               <!--  <div class="social-icons">
+                                
+                                	<ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div> -->
+                    		<!-- </li>
+                          </ul>
+                       </div>
+                </div> -->
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					Copyright 2017 & All right reserved by Owners 
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!--  <script src="js/jquery-1.11.3.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
